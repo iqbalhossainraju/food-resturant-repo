@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#food-display .card img {
+  transition: 1s ease;
+}
+.rating i {
+  color: rgb(236, 175, 19);
+}
+.banner-banner-image {
+  height: 30%;
+}
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner-image {
+  display: block;
+  width: 100%;
+  height: 480px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(50, 153, 105, 0.445);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.8s ease-in-out;
+}
+
+.banner:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+footer .footer-item {
+  align-items: center;
+}
+footer ul li {
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+footer ul li a:hover {
+  color: rgb(236, 19, 19);
+}
+.subcribe {
+  margin-top: 80px;
+}

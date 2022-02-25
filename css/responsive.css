@@ -1,0 +1,27 @@
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+  #food-display img {
+    height: 200px;
+  }
+  .banner-image {
+    height: auto;
+  }
+  footer ul li {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  #food-display img {
+    height: 200px;
+  }
+  .banner-image {
+    height: auto;
+  }
+  footer ul li {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #food-display img {
+    height: 300px;
+  }
+}
